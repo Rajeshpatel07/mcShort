@@ -11,7 +11,8 @@ const Header = () => {
 
           <div className="flex items-center gap-4">
             <a
-              href='http://rajesh-patel.vercel.app'
+              href='http://www.github.com/Rajeshpatel07/mcShort'
+              target='_blank'
               className="inline-flex items-center justify-center gap-1.5 rounded border font-medium border-gray-200 bg-white px-5 py-3  "
             >
               Github

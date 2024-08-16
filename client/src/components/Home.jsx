@@ -52,7 +52,7 @@ const Home = () => {
         </form>
         {error.length > 0 && <p className="text-2xl text-red-500 font-bold">{error}</p>}
 
-        {url.length > 0 &&
+        {url.length > 0 && error.length == 0 &&
           <section className="flex items-center w-full md:w-[36vw]  px-2">
             <input type="text" value={url}
               className="w-full text-lg rounded h-12 outline-none border-none"
